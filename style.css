@@ -1,0 +1,18 @@
+.hidden-post {
+  background-color: #ececec;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.hidden-post:before {
+  color: #808080;
+  content: "Скрытый настройками хром-расширения пост. Показать/Скрыть";
+  display: block;
+  text-align: center;
+}
+.hidden-post.show .post {
+  display: block;
+}
+.hidden-post .post {
+  display: none;
+}

@@ -1,0 +1,23 @@
+{
+   "browser_action": {
+      "default_icon": "metallist1925logo.png",
+      "default_popup": "popup.html",
+      "default_title": "Помощник для сайта metalist1925.com"
+   },
+   "content_scripts": [ {
+      "css": [ "style.css" ],
+      "js": [ "jquery.js", "script.js" ],
+      "matches": [ "https://metalist1925.com/*" ]
+   } ],
+   "description": "Плагин позволяет переходить на различные страницы сайте metalist1925.com, а так же настраивать отображение гостевой",
+   "icons": {
+      "128": "metallist1925logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm+bmltDkojSJgEllnB8m90pITFzwWY26X36k303n/0C9JUHPY4Ipprzus4l+4EjlVMjeIDMlMx97yL6YOG4cS9S+3jNRmV6hv7Pe6O4vZoOrWW5yRF2nNkgq3aedOU73YRQYyhNOvdpeo8yAEtykIStR3XHU10OICyhUUq1B1xi6gb5eb6RtVA4Q7MRgS365OkykK0SD8N/t9rvOd70TRCruJODba83YQdgItz3Go2HdbWPjeMprsAJE1Iy9f+/1AGv2siFEtlOoJVh7S60YhiypkL/vts4H8Lfbz0kGf/uaV0HpajjaTgcmup1FhJUjNTSOvooDQhHMPApLN2VrLwIDAQAB",
+   "manifest_version": 2,
+   "name": "Metallist 1925",
+   "options_page": "options.html",
+   "permissions": [ "http://metalist1925.club/*", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2"
+}

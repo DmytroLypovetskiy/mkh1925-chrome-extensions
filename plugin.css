@@ -1,0 +1,68 @@
+body {
+  font: 12px Helvetica, Arial;
+  margin: 0;
+}
+a {
+  color: #356990;
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 10px 0;
+  text-align: center;
+}
+h4 {
+  font-size: 12px;
+  margin: 0 0 10px;
+}
+.logo {
+  height: 30px;
+}
+#popup { 
+  min-width: 200px;
+}
+#popup li {
+  border-bottom: 1px solid #ccc;
+}
+#popup li:first-child {
+  border-top: 1px solid #ccc;
+}
+#popup li:hover {
+  background-color: #edf4f9;
+  cursor: pointer;
+}
+#popup li a {
+  display: block;
+  outline: none;
+  padding: 10px;
+}
+#popup .tickets-area {
+  background-color: #ececec;
+  padding: 10px;
+  text-align: center;
+}
+#popup .tickets-area .next-match-logo {
+  width: 50px;
+}
+#popup .settings {
+  padding: 10px;
+}
+
+footer {
+  background-color: #080d1f;
+  color: #fff;
+  overflow: hidden;
+  text-align: center;
+}
+footer p {
+  margin-bottom: 10px;
+}
+footer a {
+  color: #fff;
+}
